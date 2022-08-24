@@ -1,0 +1,4 @@
+ what is w+ r+ and a+.
+ The + adds either reading or writing to an existing open mode,aka update mode.
+The r means reading file; r+ means reading and writing the file.
+The w means writing file; w+ means reading and writing the file. The a means writing file, append mode; a+ means reading and writing file, append mode.
