@@ -1,4 +1,38 @@
+ class 6 assignment
  what is w+ r+ and a+.
  The + adds either reading or writing to an existing open mode,aka update mode.
 The r means reading file; r+ means reading and writing the file.
 The w means writing file; w+ means reading and writing the file. The a means writing file, append mode; a+ means reading and writing file, append mode.
+
+#class 5 assignment
+def add(x,y):
+  return x+y
+def sub(x,y):
+  return x-y
+def mul(x,y):
+  return x*y
+def div(x,y):
+  return x/y
+
+print("SELECTION OPERATIONS")  
+print("first is addition")
+print("second is substraction")
+print("third is multiplication ")
+print("forth is devision")
+
+while True:
+  choice = input("enter the operation ")
+  if choice in ("1","2","3","4"):
+    num_1=float(input("enter your number first   "))
+    num_2=float(input("enter your number second  "))
+    
+    if choice =='1':
+      print("num_1 +num_2 = ",add(num_1,num_2))
+    elif choice =='2' :
+      print("num_1-num_2=",sub(num_1,num_2))
+    elif choice=='3':
+      print("num_1*num_2=",mul(num_1,num_2))
+    elif choice=='4':
+      print("num_1/num_2=",div(num_1,num_2))
+  else :
+    print ("invalid input")
